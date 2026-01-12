@@ -9,7 +9,7 @@ import BestCup from '../assets/images/icon-personal-best.svg';
 
 function App() {
   return (
-    <div className='border border-white w-[90%] py-8 px-3'>
+    <div className='w-[90%] py-8 px-3'>
         {/* component 1 */}
         <div className='flex justify-between items-center px-5'>
           <div className=''>
@@ -48,6 +48,12 @@ function App() {
               </ul>
             </div>
           </div>
+        </div>
+
+        {/* component 3 */}
+        <div className='text-[hsl(240,1%,59%)] font-semibold text-[38px] px-5 pt-5 leading-16 text-justify'>
+            Quantum entanglement—Einstein's "spooky action at a distance\"—continues to perplex physicists and philosophers alike. When two particles become entangled, measuring one instantaneously affects the other, regardless of the distance separating them. This phenomenon doesn't violate relativity (no information travels faster than light), 
+            yet it challenges our intuitions about locality, causality, and the nature of reality itself"
         </div>
       </div>
   );
