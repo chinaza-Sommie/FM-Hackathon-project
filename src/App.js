@@ -1,5 +1,3 @@
-// import Logo from './assets/images/logo-large.svg';
-// import BestCup from './assets/images/icon-personal-best.svg';
 import Home from './pages/home';
 import './App.css';
 // - **Neutral 900**: hsl(0, 0%, 7%)
