@@ -43,7 +43,7 @@ function App() {
             </div>
             <div className='px-5 flex items-center'> Mode: 
               <ul className='flex'>
-                <li className='px-2 ml-2 border border-[hsl(240,3%,46%)] rounded-md'>Timed(60s)</li>
+                <li className='px-2 ml-2 border border-[hsl(240,3%,46%)] rounded-md'>Timed( 60s )</li>
                 <li className='px-2 ml-2 border border-[hsl(240,3%,46%)] rounded-md'>Passage</li>
               </ul>
             </div>
