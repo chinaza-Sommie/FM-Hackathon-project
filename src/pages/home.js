@@ -51,9 +51,21 @@ function App() {
         </div>
 
         {/* component 3 */}
-        <div className='text-[hsl(240,1%,59%)] font-semibold text-[35px] px-5 pt-5 leading-16 text-justify'>
+        {/* <div className='text-[hsl(240,1%,59%)] font-semibold text-[35px] px-5 pt-5 leading-16 text-justify'>
             Quantum entanglement—Einstein's "spooky action at a distance\"—continues to perplex physicists and philosophers alike. When two particles become entangled, measuring one instantaneously affects the other, regardless of the distance separating them. This phenomenon doesn't violate relativity (no information travels faster than light), 
             yet it challenges our intuitions about locality, causality, and the nature of reality itself
+        </div> */}
+
+        <div className='relative'>
+            <div className='text-[hsl(240,1%,59%)] font-semibold text-[35px] px-5 pt-5 leading-16 text-justify border border-red'>
+              Quantum entanglement—Einstein's "spooky action at a distance\"—continues to perplex physicists and philosophers alike. When two particles become entangled, measuring one instantaneously affects the other, regardless of the distance separating them. This phenomenon doesn't violate relativity (no information travels faster than light), 
+              yet it challenges our intuitions about locality, causality, and the nature of reality itself
+            </div>
+           
+            {/* <form className='absolute top-0 w-[100%] border border-[red] text-[hsl(140,63%,57%)] font-semibold text-[35px] px-5 pt-5 leading-16 text-justify border border-red'> */}
+              <input autoFocus type='text' placeholder='Quantum '
+              className='absolute top-0 w-[100%] border border-[red] text-[hsl(140,63%,57%)] font-semibold text-[35px] px-5 pt-5 leading-16 text-justify border border-red caret-[hsl(240,1%,59%)] outline-none' style={{caretShape:'5px'}}/>
+            {/* </form> */}
         </div>
       </div>
   );
