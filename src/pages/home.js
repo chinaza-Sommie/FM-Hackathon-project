@@ -62,10 +62,20 @@ function App() {
               yet it challenges our intuitions about locality, causality, and the nature of reality itself
             </div>
            
-            {/* <form className='absolute top-0 w-[100%] border border-[red] text-[hsl(140,63%,57%)] font-semibold text-[35px] px-5 pt-5 leading-16 text-justify border border-red'> */}
-              <input autoFocus type='text' placeholder='Quantum '
-              className='absolute top-0 w-[100%] border border-[red] text-[hsl(140,63%,57%)] font-semibold text-[35px] px-5 pt-5 leading-16 text-justify border border-red caret-[hsl(240,1%,59%)] outline-none' style={{caretShape:'5px'}}/>
-            {/* </form> */}
+            <textarea
+              placeholder="Quantum entanglement—Einstein"
+              className="
+                absolute top-0 w-full h-full
+                text-[hsl(140,63%,57%)]
+                font-semibold text-[35px]
+                px-5 pt-5 leading-16 text-justify
+                border-0 resize-none
+                outline-none focus:outline-none focus:ring-0
+                caret-[hsl(240,1%,59%)]
+                bg-transparent
+              "
+            />
+            
         </div>
       </div>
   );
