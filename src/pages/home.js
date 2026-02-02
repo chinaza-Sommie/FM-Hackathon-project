@@ -59,7 +59,7 @@ function App() {
         <div className='relative'>
             <div className='text-[hsl(240,1%,59%)] font-semibold text-[35px] px-5 pt-5 leading-16 text-justify border border-red'>
               Quantum entanglement—Einstein's "spooky action at a distance\"—continues to perplex physicists and philosophers alike. When two particles become entangled, measuring one instantaneously affects the other, regardless of the distance separating them. This phenomenon doesn't violate relativity (no information travels faster than light), 
-              yet it challenges our intuitions about locality, causality, and the nature of reality itself
+              yet it challenges our intuitions about locality, causality, and the nature of reality itself 
             </div>
            
             <textarea
