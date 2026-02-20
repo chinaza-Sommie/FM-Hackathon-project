@@ -29,7 +29,7 @@ function App() {
         {/* component 2 */}
         <div className='flex justify-between items-center mt-15 border-b-2 pb-4 border-[hsl(0,0%,15%)] '>
           <div className='flex items-center text-[16px] text-[hsl(240,1%,59%)] font-semibold'>
-            <div className='px-5'> WPM: <span className='ml-1 font-bold text-[17px] text-[hsl(0,0%,100%)]'>40%</span></div>
+            <div className='px-5'> WPM:<span className='ml-1 font-bold text-[17px] text-[hsl(0,0%,100%)]'>40%</span></div>
             <div className='px-5 border-l-2 border-[hsl(0,0%,15%)]'> Acurracy: <span className='ml-1 font-bold text-[17px] text-[hsl(354,63%,57%)]'>94%</span> </div>
             <div className='px-5 border-l-2 border-[hsl(0,0%,15%)]'> Time: <span className='ml-1 font-bold text-[17px] text-[hsl(49,85%,70%)]'>0:46</span> </div>
           </div>
@@ -41,7 +41,7 @@ function App() {
                 <li className='px-2 ml-2 border border-[hsl(240,3%,46%)] rounded-md'>Hard</li>
               </ul>
             </div>
-            <div className='px-5 flex items-center'> Mode: 
+            <div className='px-5 flex items-center'> Mode : 
               <ul className='flex'>
                 <li className='px-2 ml-2 border border-[hsl(240,3%,46%)] rounded-md'>Timed( 60s )</li>
                 <li className='px-2 ml-2 border border-[hsl(240,3%,46%)] rounded-md'>Passage</li>
