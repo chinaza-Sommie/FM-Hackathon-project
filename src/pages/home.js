@@ -21,7 +21,7 @@ function App() {
               <img src={BestCup} alt='Golden Cup'  />
             </div>
             <div className='text-[hsl(240,1%,59%)] text-[16px] font-bold leading-none'>
-              Personal Best: <span className='text-[hsl(0,0%,100%)]'>92 WPM</span>
+              Personal Best : <span className='text-[hsl(0,0%,100%)]'>92 WPM</span>
             </div>
           </div>
         </div>
